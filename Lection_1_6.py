@@ -32,16 +32,15 @@
     git init - команда для инициализации репозитория
     создаем в проекте файл .gitignore и вставляем в него содержимое с https://gitignore.io/api/python
     (файл .gitignore позволяет не учитывать в репозитории временные файлы, которые создаются при работе программы)
-    git remote add origin вставляем ссылку * git@github.com:bnfnal/ORPUD.git
+    git remote add origin вставляем ссылку * git@github.com:_____.git
     (изменения будут появляться по этой ссылке, в этом репозитории)
     
 - добавляем изменения в репозиторий    
+    (git config --global user.email "you@example.com"
+     git config --global user.name "Your Name")
+     
     git add . - добавляем файлы в индекс git
-    git add commit -m "Первый коммит" - делаем коммит
+    git commit -m "Первый коммит" - делаем коммит
     git push origin master - отправляем изменения в репозиторий в ветку master
     
-    git config --global user.email "bnfnal.com"
-
-    
- 
 """
